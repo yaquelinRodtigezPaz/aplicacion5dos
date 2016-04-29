@@ -1,0 +1,244 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Quinta Aplicacion</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temaapp5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/popoca.jpg','imagenes/antiguedad2.jpg','imagenes/ubicacion2.JPG','imagenes/dia2.jpg','imagenes/vid4.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Dia internacional de la Tierra</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+        <div data-role="collapsible" data-content-theme="false">
+          <h1>22 de abri dia de la tierra</h1>
+           <div>
+           <p>El Dia de la Tierra es un día celebrado en muchos paises el 22 de abril. Su promotor, el senador estadounidense Gaylord Nelson, instauro este día para crear una conciencia común a los problemas de la superpoblación, la producción de contaminación, la conservación de la biodiversidad y otras preocupaciones ambientales para proteger la Tierra. Es un día para rendir homenaje a nuestro planeta y reconocer a la Tierra como nuestro hogar y nuestra madre, así como lo han expresado distintas culturas a lo largo de la historia, demostrando la interdependencia entre sus ecosistemas y los seres vivos que la habitamos.  </p>
+           <center>
+           <img src="imagenes/DIA-DE-LA-TIERRA1.png" width="600" height="400">
+           </center>
+           <br>
+           </div>
+      </div>
+      </div>
+  <div data-role="main" class="ui-content">
+        <div data-role="collapsible" data-content-theme="false">
+          <h1>¿por que se festeja la tierra?</h1>
+           <div>
+           <p> Este 22 de abril se celebra en 180 países el Día Mundial de la Tierra, creado para hacer un llamado a la reflexión y responsabilidad humana de cara a los problemas ambientales que afectan nuestro vital planeta.El Instituto Nacional de Parques (Inparques), ente adscrito del Ministerio del Poder Popular para Ecosocialismo y Aguas (Minea), realizará una serie de actividades recreacionales con motivo de la fecha, enfocado en la preservación de nuestra Madre Tierra y en obedecer al Quinto Objetivo Histórico del Plan de la Patria 2013-2019.La lucha para el decreto del Día Mundial de la Tierra tuvo como promotor fundamental al senador estadounidense, Gaylord Nelson, promotor del día para crear una conciencia común a los problemas de la superpoblación, producción de contaminación, conservación de la biodiversidad y otras preocupaciones ambientales para proteger a la Tierra luego de una manifestación que dio lugar a una serie de leyes destinadas a aumentar la protección del medio ambiente.En 1972 se celebró la primera conferencia internacional sobre el medio ambiente, denominada Conferencia de Estocolmo, cuyo objetivo fue sensibilizar a los líderes mundiales sobre la magnitud de los problemas ambientales y que se instituyeran las políticas necesarias para erradicarlos.El Día de la Tierra apunta hacia la toma de conciencia sobre sus recursos naturales y manejo, a la educación ambiental y a la participación como personas ambientalmente conscientes. Una reverencia por la vida y las fuentes de nuestro ser orientadas al ecosocialismo para su preservación.
+</p>
+     <center>
+           <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image11','','imagenes/tierra10.jpg',1)"><img src="imagenes/tierra32.jpg" width="225" height="225" id="Image11"></a> <br>
+          </center>
+           </div>
+      </div>
+      </div>
+  
+<div>
+     <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-b">
+     <li class="ui-first-child ui-last-child">
+     <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Cabios en el medio ambiente que afectan la tierra</h2>
+       </a>
+      </li>
+      <li class="ui-first-child ui-last-child ">
+       <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2> que podemos hacer nosotros mismos para salvar al planeta tierra</h2>
+       </a>
+      </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>como contribuir a la celebracion</h2>
+       <p>"22 de abril"</p>
+       </a>
+     </li>
+    
+      <li class="ui-first-child ui-last-child">
+        <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>¿cual fue la iniciativa por el dia de la tierra</h2>
+        </a>
+       </li>
+    </ul>
+</div>
+<div data-role="footer" align="center" data-theme="a">
+  <div>
+    <h4>Aplicacion cinco</h4>
+    <h4>Dia de la Tierra</h4>
+    <h4>Yaquelin rodriguez Paz</h4>
+      <div>
+    <img src="imagenes/globe-icon.png" width="128" height="128">
+  </div>
+  </div>
+</div>
+</div>
+      
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+  <h1>Informacion</h1>
+  </div>
+  <div data-role="content" align="center">
+    <div>
+    <h1>Algunos de los cambios que afectan al medio ambiente puede ser el cambio climatico eb el medio ambiente</h1>
+      <p>Al igual que la tierra hoy en día, a lo largo de millones de años, la tierra ha experimentado alteraciones en su clima, sufriendo cambios de temperatura como los periodos glaciares y los calentamientos globales del pasado. Cada vez que se han dado dichos cambios climáticos, se han producido alteraciones el medio ambiente se producen a muy diversas escalas de tiempo y sobre todos los parámetros climáticos: temperatura, precipitaciones, nubosidad, etcetera Éstos son debidos a causas naturales y en los últimos años debido también a la acción del hombre. Estos cambios climáticos son una modificación del clima a una escala global o únicamente regional. Y estas acciones hacen que el medio ambiente varíe en mayor o menor medida adaptándose al cambio.
+</p>
+<!-- Start WOWSlider.com -->
+<iframe src="visor/indexwow.html" style="width:960px;height:360px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+
+
+    </div>
+   </div>
+ <div data-role="footer" data-theme="b">
+  <h4>Aplicacio cinco, YRP</h4>
+ </div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>¿como ayudar?</h1>
+  </div>
+  <div data-role="content" align="center">
+    <div>
+   <h1>¿Te preocupa la salud de nuestro planeta y estás preparado para hacer lo que esté en tus manos para salvarlo?</h1>
+   <h2>ALgunos metodos para ayudar a salvar el planeta son: </h2>
+   
+   <h3> Ahorrar el agua</h3>
+      <p>1. Alimentación
+Desperdiciar el agua es una de las maneras más nocivas de impactar la salud del planeta. Tomar la decisión de usar menos agua es algo que podrás a hacer de inmediato. Si vives en un área en donde escasea el agua, esta decisión será incluso mucho más importante para la salud del medioambiente de tu región. Trata de practicar la mayor cantidad de los puntos de la lista a continuación:
+Revisa y arregla cualquier fuga de agua. Un grifo que gotea podría desperdiciar mucha agua.
+Instala dispositivos ahorradores de agua en los grifos e inodoros. Una ducha de mano de bajo flujo podría ser un buen primer paso.
+No laves la vajilla con el grifo abierto continuamente. Emplea un método que requiera menos agua para lavar los platos.
+Apaga el suministro de agua de la lavadora para evitar cualquier fuga de agua. No es necesario que esté encendido todo el tiempo.
+Cambia los inodoros antiguos por unos más nuevos que usen muchísima menos agua.
+Lava y seca solamente cargas llenas de ropa sucia o platos. Lavar la mitad de una carga desperdicia agua.
+No riegues el césped con demasiada agua.
+Cuando te cepilles los dientes, no dejes el grifo abierto. 
+</p>
+<h3>Utiliza menos químicos</h3>
+<p>Los químicos que usamos para limpiar nuestros cuerpos, casas, autos y todo lo demás se van por el desagüe o son absorbidos por el césped y al final terminan en el suministro de agua. Debido a que la mayoría de gente utiliza químicos muy fuertes para todo tipo de cosas, los químicos son un verdadero peligro para las vías fluviales y la vida acuática. Los químicos tampoco son buenos para los seres humanos, así que haz tu mejor esfuerzo para reducir su uso. Podrás hacer lo siguiente:
+Infórmate sobre las alternativas de los productos domésticos de limpieza que no contengan químicos peligrosos. Por ejemplo, para los trabajos de limpieza básicos, emplear una solución de ½ de vinagre blanco y ½ de agua funciona igual que casi la mayoría de limpiadores comerciales. El bicarbonato de sodio y la sal también son limpiadores no tóxicos y económicos.
+Cuando no haya alternativas buenas de un producto tóxico, emplea la cantidad mínima requerida para un resultado higiénico y efectivo.
+En lugar de usar champús y jabones repletos de químicos, prueba hacerlos tú mismo.
+En lugar de usar pesticidas o herbicidas, busca métodos naturales para deshacerte de la mala hierba y las plagas..
+</p>
+<h3>Usa menos electricidad</h3>
+<p>El carbón y el gas natural son las fuentes de energía más comunes que se convierten en electricidad. La quema de estas substancias es un factor determinante en la contaminación mundial del aire. Reducir tu dependencia de la electricidad será excelente para que contribuyas a salvar el planeta.[3] Esto es lo que puedes hacer:
+Haz uso de la energía solar para la calefacción del hogar y del agua.
+Apaga los equipos eléctricos en la noche cuando te vayas del trabajo.
+Si tienes aire acondicionado central, no cierres las rejillas de las habitaciones que no se usan.
+Baja el termostato del calentador de agua a 50 °C (120 °F).
+Baja o apaga el calentador de agua cuando estés ausente por periodos largos de tiempo.
+Apaga las luces que no uses cuando salgas de una habitación por un momento breve.
+Gradúa la temperatura del refrigerador a 2-3 °C (36-38 °F) y el congelador a -17,-15 °C (0-5 °F).
+Cuando uses el horno y esté en uso, abre la puerta la menor cantidad de veces, porque cada vez que la abres, baja la temperatura unos 25 a 30 grados.
+Limpia el filtro de pelusa de la secadora después de cada carga para que emplee menos energía.
+Lava la ropa con agua tibia o fría en lugar de agua caliente.
+Apaga las luces, las computadoras y demás aparatos cuando no los uses.
+Utiliza bombillas fluorescentes compactas para ahorrar dinero y energía.
+Planta árboles para que le den sombra a tu casa.
+Cambia las ventanas antiguas por unas que sean eficientes con la energía.
+Mantén el termostato a una mayor temperatura en verano y una menor en invierno cuando no estés en casa.
+Aísla tu casa lo mejor que puedas.
+</p>
+<h3>No conduzcas ni tomes vuelos tan seguido</h3>
+<p>Otra gran fuente de contaminación del aire que ha producido el calentamiento global son las emisiones de los autos, camiones, aviones y demás vehículos. La fabricación de los vehículos, la gasolina necesaria para que funcionen, los químicos que queman y la producción de carreteras tienen parte de la responsabilidad. Si te es posible no conducir ni tomar vuelos tan seguido, harás mucho por salvar al planeta.[4]
+Camina o ve en bicicleta en lugar de conducir, en lo posible. ¡Busca las vías para bicicletas en tu localidad y úsalas!
+Si no te es posible ir en bicicleta o caminar al trabajo, únete a un viaje compartido en auto o furgoneta.
+Reporta los vehículos que despidan humo en la agencia de aire local.
+Mantén tu vehículo apropiadamente. Compra llantas radiales y mantenlas bien infladas. Para minimizar las emisiones dañinas, pinta con brochas o rodillos en lugar de usar pinturas en aerosol.
+</p>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','imagenes/vid4.jpg',1)"><img src="imagenes/contaminacionrio.jpg" width="200" height="150" id="Image10"></a>
+</div>
+  <div data-role="footer" data-theme="a">
+     <h4>Aplicacio cinco, YRP</h4>
+  </div>
+ </div>
+</div>
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Apple celebra el dia de la tierra </h1>
+  </div>
+  <div data-role="content" align="center">
+  <div>
+  <center>
+    <p> Aprovechando que hoy se celebra el Día de la Tierra, Apple lanzó un comercial protagonizado por Siri y Liam, el robot reciclador que conocimos en la última keynote de la compañía.
+
+En el anuncio vemos a Siri y Liam conversando, hasta que el robot decide contribuir con el Día de la Tierra desarmando al iPhone, en vez de beberse un smoothie orgánico, como la gente decente. | CE |
+
+Al final del comercial vemos que Apple nos pide preguntarle a Siri sobre Liam Estás son algunas de las respuestas que da el asistente de voz:
+
+.</p>
+ <img src="imagenes/apple.png" width="128" height="128">
+         
+
+         
+      </center>
+    </div>
+  <div data-role="footer" data-theme="b">
+      <h4>Aplicacio cinco, YRP</h4>
+  </div>
+ </div>
+</div>
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Iniciativa dia de la tierra</h1>
+  </div>
+ <div data-role="content" align="center">
+  <div>
+    <h2>Como surgio el dia de la tierra</h2>
+    <p>Comenzó hace relativamente poco, en 1970 y, en su primera participación, logró reunir a 20 millones de personas, hasta llegar a ser la tradición mundial que es ahora. Hay que tener en cuenta que la década anterior, los años 60, fueron años importantes para el ecologismo, en los que se empezaron a concienciar de la importancia de respetar el planeta más que nunca antes. La espesa contaminación empezaba a hacer mella en muchas de las grandes ciudades y la gente estaba enfadada con esa realidad. El medio ambiente estaba sufriendo. Fue la época del activismo y de la indignación generalizada, lo que propició movimientos como el pacifismo, naturismo y ecologismo de los hippies.
+
+En los años 60-70, además, tanto las grandes empresas como los políticos no prestaban mucha atención a la ecología, sino que las cuestiones como la economía o las finanzas eran mucho más importantes. Aunque aún queda mucho por mejorar, hoy en día muchas empresas y gobiernos incluyen importantes propuestas ecológicos y ya en muchos estados o regiones gobiernan partidos ‘verdes’.
+
+
+
+Leer más: http://www.ecologiaverde.com/dia-la-tierra-surgio/#ixzz477qbTXtB
+    </p>
+     <h1><a href="http://www.vitadelia.com/como-surgio-la-celebracion-del-dia-de-la-tierra/">Para mas informacion da click aqui...</a></h1>
+   </div>
+  </div> 
+  <div data-role="footer" data-theme="a">
+     <h4>Aplicacio cinco, YRP</h4>
+  </div>
+ </div>
+</div> 
+  
+</body>
+</html>
